@@ -1,0 +1,111 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.eidlink</groupId>
+  <artifactId>eidlink-api-demo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>api-demo</name>
+  <description>金联汇通request demo</description>
+  
+  
+   <dependencies>
+  	<dependency>
+  	<groupId>com.eidlink</groupId>
+  	<artifactId>eidlink-common</artifactId>
+  	<version>1.0.0</version>
+     <scope>system</scope>
+     <systemPath>${project.basedir}/lib/common-2.1.1-SNAPSHOT.jar</systemPath>
+  	</dependency>
+  	
+  	<dependency>
+  	<groupId>commons-beanutils</groupId>
+  	<artifactId>beanutils</artifactId>
+  	<version>1.8.0</version>
+     <scope>system</scope>
+     <systemPath>${project.basedir}/lib/commons-beanutils-1.8.0.jar</systemPath>
+  	</dependency>
+  	
+  	
+  	<dependency>
+  	<groupId>commons</groupId>
+  	<artifactId>collections</artifactId>
+  	<version>3.2.0</version>
+     <scope>system</scope>
+     <systemPath>${project.basedir}/lib/commons-collections-3.2.1.jar</systemPath>
+  	</dependency>
+  	
+  	
+  	<dependency>
+  	<groupId>commons</groupId>
+  	<artifactId>lang</artifactId>
+  	<version>1.0.0</version>
+     <scope>system</scope>
+     <systemPath>${project.basedir}/lib/commons-lang-2.5.jar</systemPath>
+  	</dependency>
+  	
+  	
+  	<dependency>
+  	<groupId>commons</groupId>
+  	<artifactId>logging</artifactId>
+  	<version>1.0.0</version>
+     <scope>system</scope>
+     <systemPath>${project.basedir}/lib/commons-logging-1.1.1.jar</systemPath>
+  	</dependency>
+  	
+  	
+  	<dependency>
+  	<groupId>com.eidlink</groupId>
+  	<artifactId>crpto</artifactId>
+  	<version>1.0.0</version>
+     <scope>system</scope>
+     <systemPath>${project.basedir}/lib/crypto-1.0.0.jar</systemPath>
+  	</dependency>
+  	
+  	
+  	<dependency>
+  	<groupId>com.eidlink</groupId>
+  	<artifactId>ezmorph</artifactId>
+  	<version>1.0.0</version>
+     <scope>system</scope>
+     <systemPath>${project.basedir}/lib/ezmorph-1.0.6.jar</systemPath>
+  	</dependency>
+  	
+  	
+  	<dependency>
+  	<groupId>com.eidlink</groupId>
+  	<artifactId>json-lib-2.4-jdk15</artifactId>
+  	<version>1.0.0</version>
+     <scope>system</scope>
+     <systemPath>${project.basedir}/lib/json-lib-2.4-jdk15.jar</systemPath>
+  	</dependency>
+  	
+  	
+  	<dependency>
+  	<groupId>com.eidlink</groupId>
+  	<artifactId>swxajce</artifactId>
+  	<version>1.0.0</version>
+     <scope>system</scope>
+     <systemPath>${project.basedir}/lib/swxajce-1.0.0.jar</systemPath>
+  	</dependency>
+  	
+  	<dependency>
+  	<groupId>com.eidlink</groupId>
+  	<artifactId>eidlink-common</artifactId>
+  	<version>1.0.0</version>
+     <scope>system</scope>
+     <systemPath>${project.basedir}/lib/common-2.1.1-SNAPSHOT.jar</systemPath>
+  	</dependency>
+  	
+  	<dependency>
+  	<groupId>com.eidlink</groupId>
+  	<artifactId>eidlink-common</artifactId>
+  	<version>1.0.0</version>
+     <scope>system</scope>
+     <systemPath>${project.basedir}/lib/common-2.1.1-SNAPSHOT.jar</systemPath>
+  	</dependency>
+  		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.9</version>
+		</dependency>
+  </dependencies>
+</project>
